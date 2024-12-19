@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+    color: #34495e;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+section p, .experience p, .project p {
+    color: #34495e;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.experience, .project {
+    margin-bottom: 10px;
+}
+
+.experience h3, .project h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
